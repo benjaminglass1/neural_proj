@@ -1,0 +1,5 @@
+datagen.jl is the generation function. Can be run as julia datagen.jl [desired number of datapoints] [desired filename]
+
+neural_net.jl is the neural net code. Can be run as julia neural_net.jl [filename of datafile]
+
+run_net.jl is the tester. Can be run as julia run_net.jl [filename of test dataset]. It depends on layer1.csv and layer2.csv being accessible in the same directory. These contain the weights and biases for the functions.
